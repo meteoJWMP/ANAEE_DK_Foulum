@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript">
+function getLastMod(){
+	var myFrm = document.getElementById('myIframe');
+	var lastModif = new Date(myFrm.contentWindow.document.lastModified);
+	document.getElementById('LastModified').innerHTML = "Last updated: " + lastModif.toLocaleString();
+}
+</script>
+<body>
+<br>
+<br>
+Foulumgård Meteo
+<br>
+<span id="LastModified"></span>
+<iframe id="myIframe" onload="getLastMod()" src="Mark_2_2/TDR/2.jpg" style="display:none;">
+</iframe>
+
+<br>
+<br>
+<img src="Mark_2_2/TDR/1.jpg">
+<img src="Mark_2_2/TDR/2.jpg">
+<img src="Mark_2_2/TDR/3.jpg">
+<img src="Mark_2_2/TDR/4.jpg">
+<img src="Mark_2_2/TDR/5.jpg">
+<img src="Mark_2_2/TDR/6.jpg">
+<img src="Mark_2_2/TDR/7.jpg">
+<img src="Mark_2_2/TDR/8.jpg">
+<img src="Mark_2_2/TDR/9.jpg">
+<img src="Mark_2_2/TDR/10.jpg">
+<img src="Mark_2_2/TDR/11.jpg">
+<img src="Mark_2_2/TDR/12.jpg">
+<br>
+<br>
+Made By JWMP
+</body>
+</html>
